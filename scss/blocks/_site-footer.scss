@@ -79,3 +79,14 @@
   line-height: 25px;
   text-align: right;
 }
+.site-footer__social-img path {
+  transition: fill 0.3s ease;
+}
+.site-footer__social-img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.social-icon:hover  .site-footer__social-img path {
+  fill: $pink-color;
+}
